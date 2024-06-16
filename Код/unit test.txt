@@ -1,0 +1,115 @@
+ак создать и запустить unit тесты в приложении Windows Forms
+Для создания и запуска unit тестов в приложении на основе Windows Forms, необходимо использовать инструменты для тестирования, такие как MSTest, NUnit или xUnit. В этом примере мы будем использовать MSTest, который интегрирован в Visual Studio и является одним из стандартных инструментов для тестирования .NET приложений.
+
+Шаг 1: Установка необходимого пакета
+Если вы используете Visual Studio, создайте проект тестирования и добавьте его в ваше решение. Если у вас еще нет проекта тестирования, выполните следующие шаги:
+
+Создание проекта тестирования:
+
+Откройте ваше решение в Visual Studio.
+Щелкните правой кнопкой мыши на решении в Solution Explorer и выберите Add > New Project.
+В диалоговом окне выберите Unit Test Project (например, Unit Test Project (.NET Framework)), дайте имя проекту (например, MyApp.Tests) и нажмите Create.
+Добавление ссылки на основной проект:
+
+Щелкните правой кнопкой мыши на вашем проекте тестирования и выберите Add > Reference.
+В открывшемся диалоговом окне выберите ваш основной проект (например, MyApp) и нажмите OK.
+Шаг 2: Создание тестов
+Предположим, у вас есть класс RequestManager в основном проекте, который содержит методы для создания заявки, обновления статуса и добавления комментариев. Вам нужно будет создать тестовые методы в проекте тестирования.
+
+csharp
+Копировать код
+// MyApp/RequestManager.cs
+public class RequestManager
+{
+    public bool CreateRequest(Request request)
+    {
+        // Логика создания заявки
+        return true; // Предполагается успешное создание
+    }
+
+    public bool UpdateRequestStatus(int requestId, string newStatus)
+    {
+        // Логика обновления статуса заявки
+        return true; // Предполагается успешное обновление
+    }
+
+    public bool AddComment(int requestId, string comment, int masterId)
+    {
+        // Логика добавления комментария
+        return true; // Предполагается успешное добавление
+    }
+}
+Теперь создадим unit тесты для этого класса.
+
+csharp
+Копировать код
+// MyApp.Tests/RequestManagerTests.cs
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using MyApp;
+
+namespace MyApp.Tests
+{
+    [TestClass]
+    public class RequestManagerTests
+    {
+        private RequestManager _requestManager;
+
+        [TestInitialize]
+        public void Setup()
+        {
+            _requestManager = new RequestManager();
+        }
+
+        [TestMethod]
+        public void CreateRequest_ShouldReturnTrue_WhenRequestIsValid()
+        {
+            var request = new Request
+            {
+                StartDate = DateTime.Now,
+                OrgTechType = "Компьютер",
+                OrgTechModel = "DELL Inspiron",
+                ProblemDescription = "Не включается",
+                Status = "Новая заявка",
+                ClientId = 6
+            };
+
+            var result = _requestManager.CreateRequest(request);
+
+            Assert.IsTrue(result);
+        }
+
+        [TestMethod]
+        public void UpdateRequestStatus_ShouldReturnTrue_WhenStatusIsUpdated()
+        {
+            var requestId = 1;
+            var newStatus = "В процессе ремонта";
+
+            var result = _requestManager.UpdateRequestStatus(requestId, newStatus);
+
+            Assert.IsTrue(result);
+        }
+
+        [TestMethod]
+        public void AddComment_ShouldReturnTrue_WhenCommentIsAdded()
+        {
+            var requestId = 1;
+            var comment = "Проблема изучается";
+            var masterId = 2;
+
+            var result = _requestManager.AddComment(requestId, comment, masterId);
+
+            Assert.IsTrue(result);
+        }
+    }
+}
+Шаг 3: Запуск тестов
+Открытие окна тестирования:
+
+Перейдите в меню Test и выберите Test Explorer.
+Запуск тестов:
+
+В Test Explorer вы увидите список тестов.
+Нажмите кнопку Run All для запуска всех тестов или выберите конкретные тесты и нажмите Run Selected Tests.
+Просмотр результатов тестирования:
+
+В Test Explorer результаты тестов будут отображены. Успешные тесты будут отмечены зеленым, а неуспешные красным.

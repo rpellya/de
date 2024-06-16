@@ -1,0 +1,19 @@
+D:\Job\University\ДЭ\Example_1\Учет заявок на ремонт оргтехники\Учет заявок на ремонт оргтехники\bin\Debug\Учет заявок на ремонт оргтехники.exe.config
+D:\Job\University\ДЭ\Example_1\Учет заявок на ремонт оргтехники\Учет заявок на ремонт оргтехники\bin\Debug\Учет заявок на ремонт оргтехники.exe
+D:\Job\University\ДЭ\Example_1\Учет заявок на ремонт оргтехники\Учет заявок на ремонт оргтехники\bin\Debug\Учет заявок на ремонт оргтехники.pdb
+D:\Job\University\ДЭ\Example_1\Учет заявок на ремонт оргтехники\Учет заявок на ремонт оргтехники\obj\Debug\Учет заявок на ремонт оргтехники.csproj.AssemblyReference.cache
+D:\Job\University\ДЭ\Example_1\Учет заявок на ремонт оргтехники\Учет заявок на ремонт оргтехники\obj\Debug\Учет заявок на ремонт оргтехники.csproj.SuggestedBindingRedirects.cache
+D:\Job\University\ДЭ\Example_1\Учет заявок на ремонт оргтехники\Учет заявок на ремонт оргтехники\obj\Debug\Учет_заявок_на_ремонт_оргтехники.AuthForm.resources
+D:\Job\University\ДЭ\Example_1\Учет заявок на ремонт оргтехники\Учет заявок на ремонт оргтехники\obj\Debug\Учет_заявок_на_ремонт_оргтехники.Properties.Resources.resources
+D:\Job\University\ДЭ\Example_1\Учет заявок на ремонт оргтехники\Учет заявок на ремонт оргтехники\obj\Debug\Учет заявок на ремонт оргтехники.csproj.GenerateResource.cache
+D:\Job\University\ДЭ\Example_1\Учет заявок на ремонт оргтехники\Учет заявок на ремонт оргтехники\obj\Debug\Учет заявок на ремонт оргтехники.csproj.CoreCompileInputs.cache
+D:\Job\University\ДЭ\Example_1\Учет заявок на ремонт оргтехники\Учет заявок на ремонт оргтехники\obj\Debug\Учет заявок на ремонт оргтехники.exe
+D:\Job\University\ДЭ\Example_1\Учет заявок на ремонт оргтехники\Учет заявок на ремонт оргтехники\obj\Debug\Учет заявок на ремонт оргтехники.pdb
+D:\Job\University\ДЭ\Example_1\Учет заявок на ремонт оргтехники\Учет заявок на ремонт оргтехники\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Job\University\ДЭ\Example_1\Учет заявок на ремонт оргтехники\Учет заявок на ремонт оргтехники\bin\Debug\System.Data.SqlClient.dll
+D:\Job\University\ДЭ\Example_1\Учет заявок на ремонт оргтехники\Учет заявок на ремонт оргтехники\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\Job\University\ДЭ\Example_1\Учет заявок на ремонт оргтехники\Учет заявок на ремонт оргтехники\bin\Debug\System.Data.SqlClient.xml
+D:\Job\University\ДЭ\Example_1\Учет заявок на ремонт оргтехники\Учет заявок на ремонт оргтехники\obj\Debug\Учет заявок на ремонт оргтехники.csproj.CopyComplete
+D:\Job\University\ДЭ\Example_1\Учет заявок на ремонт оргтехники\Учет заявок на ремонт оргтехники\obj\Debug\Учет_заявок_на_ремонт_оргтехники.CleintForm.resources
+D:\Job\University\ДЭ\Example_1\Учет заявок на ремонт оргтехники\Учет заявок на ремонт оргтехники\obj\Debug\Учет_заявок_на_ремонт_оргтехники.MainMenu.resources
+D:\Job\University\ДЭ\Example_1\Учет заявок на ремонт оргтехники\Учет заявок на ремонт оргтехники\bin\Debug\QRCoder.dll
